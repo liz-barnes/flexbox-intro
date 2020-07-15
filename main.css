@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(247, 250, 204);
+  background-color: whitesmoke;
 }
 
 .navigation {
@@ -57,4 +57,35 @@ ul a:hover {
 .dogs img {
   width: 200px;
   margin: 15px;
+}
+
+/***** CATS *****/
+
+.cats-header {
+  font-size: 58px;
+  margin: 25px 50px;
+  color: rgb(147, 181, 182);
+}
+
+.cats {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin: 0px 300px 300px 50px;
+}
+
+.cat-border {
+  border: 2px solid rgb(147, 181, 182);
+  margin: 25px;
+  width: 300px;
+}
+
+.cats img {
+  width: 80%;
+  margin: 25px;
+  display: block;
+}
+
+.cat-border:hover {
+  background-color: beige;
 }
