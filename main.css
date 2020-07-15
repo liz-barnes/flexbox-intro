@@ -17,7 +17,6 @@ body {
 .logo {
   padding: 1em;
   text-transform: uppercase;
-  
 }
 
 .logo a {
@@ -33,7 +32,7 @@ ul {
 .logo a,
 ul a {
   text-decoration: none;
-  letter-spacing: .45em;
+  letter-spacing: 0.45em;
 }
 
 ul a {
@@ -43,5 +42,5 @@ ul a {
 }
 
 ul a:hover {
-  background-color: rgb(154, 171, 172);
+  background-color: rgb(123, 160, 161);
 }
