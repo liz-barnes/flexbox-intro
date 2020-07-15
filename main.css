@@ -45,3 +45,16 @@ ul a {
 ul a:hover {
   background-color: rgb(154, 171, 172);
 }
+
+/******* DOGS *******/
+
+.dogs {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.dogs img {
+  width: 200px;
+  margin: 15px;
+}
